@@ -23,7 +23,7 @@ $rightstring = right($leftstring,4);
 var_dump($rightstring);
 
 */
-$dir = "./content/player_gamagori";
+$dir = "./content/player";
 $dh = opendir($dir);
 
 $json = array();
