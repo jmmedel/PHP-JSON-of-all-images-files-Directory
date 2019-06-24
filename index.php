@@ -44,7 +44,7 @@ while (($file = readdir($dh)) !== false) {
 }
 
 closedir($dh);
-
+var_dump($json);
 
 
 //creates the file
